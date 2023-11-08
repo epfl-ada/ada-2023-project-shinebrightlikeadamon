@@ -1,4 +1,4 @@
-## A Star is Born: Your Blueprint to Achieving Global Acting Fame
+# A Star is Born: Your Blueprint to Achieving Global Acting Fame
 
 ## Abstract
 Striving for Hollywood fame requires a meticulous strategy. To navigate the challenging waters of an acting career, one must consider where to begin. 
