@@ -1,5 +1,4 @@
 # ada-2023-project-shinebrightlikeadamon
-ada-2023-project-shinebrightlikeadamon created by GitHub Classroom
 
 A Star is Born: Your Blueprint to Achieving Global Acting Fame
 
