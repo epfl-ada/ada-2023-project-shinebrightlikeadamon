@@ -10,7 +10,20 @@ This plan should clarify what to concentrate on and when, such as the ideal genr
 Understanding these dynamics can offer concrete actionable steps to actors, advising them on their next move to maximize their success potential.
 
 ## Research Questions 🔎
+1. What impact does the `gender` of an actor have on the ratings of a movie?
+2. What impact does the `ethnicity` of an actor have on the ratings of a movie?
+3. What is the ideal `age` for a specific character type?
+4. How does an actor's previous nomination or `award` affect the movie's ratings? 
+5. How do `connections between actors` influence each other's contribution to movie ratings?
 
 ## Additional Datasets 📈
 
+## Methods
 
+## Timeline 
+![Shine Bright Like Adamon](img/timeline.png)
+
+## Team Organization
+
+
+## Questions for TA 
