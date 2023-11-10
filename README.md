@@ -10,20 +10,57 @@ This plan should clarify what to concentrate on and when, such as the ideal genr
 Understanding these dynamics can offer concrete actionable steps to actors, advising them on their next move to maximize their success potential.
 
 ## Research Questions 🔎
-1. What impact does the `gender` of an actor have on the ratings of a movie?
-2. What impact does the `ethnicity` of an actor have on the ratings of a movie?
-3. What is the ideal `age` for a specific character type?
-4. How does an actor's previous nomination or `award` affect the movie's ratings? 
-5. How do `connections between actors` influence each other's contribution to movie ratings?
+1. What impact do the `gender` and `ethnicity` of an actor have on the ratings of a movie?
+2. What is the ideal `age` for a specific character type?
+3. How does an actor's previous nomination or `award` affect the movie's ratings? 
+4. How do `connections between actors` influence each other's contribution to movie ratings?
+5. Is popularity everything? Do high ratings correspond to high `box-office revenue`?
 
 ## Additional Datasets 📈
 
-## Methods
+## Methods 📊
 
-## Timeline 
+## Timeline ⌛️
 ![Shine Bright Like Adamon](img/timeline.png)
 
-## Team Organization
+## Team Organization ✅
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <table>
+    <tr>
+      <th>Member</th>
+      <th>Tasks</th>
+    </tr>
+    <tr>
+      <td>Emma</td>
+      <td>README.md: Questions, Timeline, Team Organization</td>
+    </tr>
+    <tr>
+      <td>Félix</td>
+      <td>scraping of CPI dataset</td>
+    </tr>
+    <tr>
+      <td>Marine</td>
+      <td>README.md: Abstract</td>
+    </tr>
+    <tr>
+      <td>Tim B.</td>
+      <td>data pre-processing</td>
+    </tr>
+    <tr>
+      <td>Tim W.</td>
+      <td>collection of datasets</td>
+    </tr>
+  </table>
+
+</body>
+</html>
 
 
-## Questions for TA 
+## Questions for TA ❔
