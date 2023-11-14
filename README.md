@@ -47,7 +47,7 @@ Understanding these dynamics can offer concrete actionable steps to actors, advi
     </tr>
     <tr>
       <td>Félix</td>
-      <td>scraping of actors popularity/fame dataset, methods and initial data merging</td>
+      <td>scraping of actors popularity dataset, methods and initial data merging</td>
     </tr>
     <tr>
       <td>Marine</td>
