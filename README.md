@@ -1,21 +1,20 @@
 # A Star Cast is Born: Striking Gold with the Perfect Lineup
 
 ## Abstract
-In the art of filmmaking, a director’s work begins with the cast, a critical choice that shapes the future success of the movie. Our project offers a recommendation to directors, illuminating key aspects they should consider in their cast. Central to this research is understanding the impact of gender and diversity ratio on audience and critical reception. Another important aspect is the ideal age for characters, which ensures authenticity and believability to viewers. 
+In movie-making, picking the right cast is key to a film's triumph. Our project sheds light on what directors should consider when casting. Central to our investigation is the effect of an actor's gender and ethnic mix on a movie's reception. We're also keen on finding the perfect age for characters, aiming for authenticity and relatability.
 
-The narrative also explores the influence of actors' previous awards on a film's ratings. Can an award-winning cast elevate a movie’s rating? Furthermore, we will explore how the relationships between actors can enhance or detract from a film’s appeal.
+We go beyond mere talent, examining if an actor's fame and past awards can lift a film's ratings. Does having an award-winner or a star lead to better ratings? Alongside this, we look into how connections between actors affect a movie's charm.
 
-Finally, our guide brings everything together for directors seeking to craft the ultimate cast to create a movie that's not just good, but one that tops the rating charts.
+Our analysis doesn't stop there. We also delve into the financial aspect, scrutinizing how these factors translate into box office revenues. This guide aims to equip directors with insights for assembling a cast that excels both in capturing hearts and at the box office, propelling a film to the peak of ratings.
 
 ## Research Questions 🤨
 In our project, we define the success of a movie in terms of IMDB ratings. To provide the perfect cast, we will answer the following five questions:
 
-1. Is popularity everything? Do high ratings correspond to high `box-office revenue`?
-2. How does an actor's `gender` and `ethnicity` influence the ratings of a film?
-3. Ageing to Perfection: What is the optimal `age` for portraying specific character type?
-4. Do stars make movies shine brighter? How does popularity, a previous nomination or `award` received by an actor impact the ratings of a movie?
-5. How do `connections between actors` influence each other's contribution to movie ratings?
-
+1. How does an actor's `gender` and `ethnicity` influence the ratings of a film?
+2. Ageing to Perfection: What is the optimal `age` for portraying specific character type?
+3. Do stars make movies shine brighter? How does popularity, a previous nomination or `award` received by an actor impact the ratings of a movie?
+4. How do `connections between actors` influence each other's contribution to movie ratings?
+5. Is popularity everything? Do high ratings correspond to high `box-office revenue`?
 
 ## Additional Datasets 💽
 1. IMDB [dataset](https://developer.imdb.com/non-commercial-datasets/): Ratings from IMDB. We are going to use the ratings as the dependent variable for our analysis. We merge it with each movie in the 'movie.metadata.csv' by combining by 'name' as unique key. As each movie appears multiple times we did a weighted average with the numbers of votes to have a general rating.
@@ -135,7 +134,7 @@ WE would use this method to find out if there's a statistical relationship betwe
     </tr>
     <tr>
       <td>Marine</td>
-      <td>README.md: Abstract </td>
+      <td>README.md: Abstract</td>
     </tr>
     <tr>
       <td>Tim B.</td>
