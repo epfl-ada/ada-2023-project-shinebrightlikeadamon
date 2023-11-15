@@ -45,11 +45,11 @@ We would use this method to find out if there's a statistical relationship betwe
 
 ### General Pre-Processing
   1. Movie Metadata:
-    - Added average rating from the IMBD dataset, adjust box office revenue with inflation in the US from the additional dataset to be able to compare them, implemented budget values and adjust them like box office. We also added the size of the cast, the number of awards/nominations of the cast and its average popularity and experience.
+      - Added average rating from the IMBD dataset, adjust box office revenue with inflation in the US from the additional dataset to be able to compare them, implemented budget values and adjust them like box office. We also added the size of the cast, the number of awards/nominations of the cast and its average popularity and experience.
   2. Character Metadata:
-    - Includes all actor data adjusted to the release date: age, awards, experience.
+      - Includes all actor data adjusted to the release date: age, awards, experience.
   3. Actor Data:
-    - Collected all the following data per actor:
+      - Collected all the following data per actor:
       - Popularity, %liked, %disliked, %neutral in the US population.
       - Total number of movies made
       - Number of awards/nominations
