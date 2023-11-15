@@ -10,11 +10,12 @@ Finally, our guide probes the balance between a cast's star power and the narrat
 ## Research Questions 🔎
 In our project, we define the success of a movie in terms of IMDB ratings. To provide the perfect cast, we will answer the following five questions:
 
-1. How does an actor's `gender` and `ethnicity` influence the ratings of a film?
-2. What is the optimal `age` for portraying specific character types?
-3. How does a previous nomination or `award` received by an actor impact the ratings of a movie?
-4. How do `connections between actors` influence each other's contribution to movie ratings?
-5. Is popularity everything? Do high ratings correspond to high `box-office revenue`?
+1. Is popularity everything? Do high ratings correspond to high `box-office revenue`?
+2. How does an actor's `gender` and `ethnicity` influence the ratings of a film?
+3. Ageing to Perfection: What is the optimal `age` for portraying specific character type?
+4. Do stars make movies shine brighter? How does popularity, a previous nomination or `award` received by an actor impact the ratings of a movie?
+5. How do `connections between actors` influence each other's contribution to movie ratings?
+
 
 ## Additional Datasets 📈
 1. IMDB [dataset](https://developer.imdb.com/non-commercial-datasets/): Ratings from IMDB. We are going to use the ratings as the dependent variable for our analysis. We merge it with each movie in the 'movie.metadata.csv' by combining by 'name' as unique key. As each movie appears multiple times we did a weighted average with the numbers of votes to have a general rating.
@@ -45,9 +46,11 @@ To find out if there's a statistical relationship between actors' connections an
 
 ### General Pre-Processing
   1. Movie Metadata:
-    - 
+    - Added average rating from the IMBD dataset, adjust box office revenue with inflation in the US from the additional dataset to be able to compare them, implemented budget values and adjust them like box office.
   2. Character Metadata:
     -
+  3. Actor Data:
+    - 
 
 ## Timeline ⌛️
 ![Shine Bright Like Adamon](img/timeline.png)
