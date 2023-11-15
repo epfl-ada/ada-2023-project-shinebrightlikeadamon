@@ -54,14 +54,6 @@ To find out if there's a statistical relationship between actors' connections an
 
 ## Milestones 🗿
 
-### 1. Data Processing
-First we want to adjust our box office revenue and budget data for inflation. Secondly we want to combine actor popularity and their awards to understand their impact on ratings.
-
-### 2.
-Certainly! Here's a continuation and completion of your milestone plan for your data story project, aligned with the research questions and methods you've outlined:
-
-### Milestones 🗿
-
 ### 1. Data Processing and Preparation
 - **Task 1.1:** Adjust box office revenue and budget data for inflation to ensure temporal accuracy and comparability.
 - **Task 1.2:** Integrate datasets to include actor popularity metrics and their awards history, focusing on their potential influence on movie ratings.
@@ -87,22 +79,30 @@ Certainly! Here's a continuation and completion of your milestone plan for your 
 - **Task 6.1:** Create a network graph of actors based on their co-starring roles.
 - **Task 6.2:** Apply correlation analysis to assess how connections between actors affect movie ratings.
 
-### 7. Popularity vs. Box Office Revenue
-- **Task 7.1:** Investigate the relationship between movie ratings (as a proxy for popularity) and box office revenue using regression analysis.
-- **Task 7.2:** Examine if high ratings consistently correlate with high box-office revenue.
+### 7. Relationship Between Ratings, Revenue, and Budget
+- **Task 7.1:**  Investigate the correlation between movie ratings (as a proxy for popularity) and box office revenue, integrating budget data to enable a more nuanced analysis. This will allow for assessing how well a movie performs financially relative to its production costs.
+- **Task 7.2:**  Use regression analysis to explore the impact of ratings on box-office revenue, while controlling for movie budget. This will provide insights into whether high ratings are associated with high revenue when accounting for production budgets.
+- **Task 7.3:**  Perform comparative analysis to evaluate if movies with similar budgets but varying ratings have different revenue outcomes, further underscoring the role of ratings in financial success.
 
-### 8. Reporting and Visualization
-- **Task 8.1:** Compile findings and insights into comprehensive reports.
-- **Task 8.2:** Create visualizations to effectively communicate the results of the analyses.
+### 8. Development of Frontend for Data Visualization
+- **Task 8.1:** Design and develop a frontend website that effectively visualizes the data story. This includes creating interactive charts and graphs to display key findings.
+- **Task 8.2:** Ensure the website is user-friendly and accessible, with intuitive navigation and clear presentation of data insights.
+- **Task 8.3:** Test the website for functionality and user experience.
 
-### 9. Final Review and Refinement
-- **Task 9.1:** Conduct a thorough review of the analyses and findings.
-- **Task 9.2:** Refine models and visualizations based on feedback and additional insights.
+### 9. Hosting and Deployment
+- **Task 9.1:** Host the frontend on GitHub Pages, leveraging its integration with GitHub repositories for easy updates and version control.
+- **Task 9.2:** Perform final testing post-deployment to ensure the website is fully operational and accessible online.
 
-### 10. Project Closure and Documentation
-- **Task 10.1:** Document methodologies, data sources, and key findings.
-- **Task 10.2:** Prepare final project deliverables, including a comprehensive report and data visualizations.
+### 10. Reporting, Final Review, and Documentation
+- **Task 10.1:** Compile findings, insights, and visualizations into comprehensive reports accessible through the website.
+- **Task 10.2:** Conduct a final review of the analyses, website, and overall project.
+- **Task 10.3:** Document methodologies, data sources, key findings, and the development process of the website.
+- **Task 10.4:** Prepare final project deliverables, including the comprehensive report, data visualizations, and the fully functional website.
 
+### 11. Project Closure
+- **Task 11.1:** Ensure all project components, including the data analyses and frontend website, are complete and meet the project objectives.
+- **Task 11.2:** Archive all project materials and code repositories in an organized manner for future reference or potential follow-up projects.
+- **Task 11.3:** Conduct a project debrief with the team to reflect on successes, challenges, and learnings.
 
 ## Team Organization 👨‍👩‍👧‍👦
 <!DOCTYPE html>
@@ -128,15 +128,15 @@ Certainly! Here's a continuation and completion of your milestone plan for your 
     </tr>
     <tr>
       <td>Marine</td>
-      <td>README.md: Abstract</td>
+      <td>README.md: Abstract </td>
     </tr>
     <tr>
       <td>Tim B.</td>
-      <td>data pre-processing</td>
+      <td>Data pre-processing</td>
     </tr>
     <tr>
       <td>Tim W.</td>
-      <td>collection of datasets</td>
+      <td>Collection of datasets, Milestones, Front-End setup</td>
     </tr>
   </table>
 
