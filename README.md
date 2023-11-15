@@ -25,6 +25,10 @@ Understanding these dynamics can offer concrete actionable steps to actors, advi
 
 ## Methods 📊
 
+### General Pre-Processing
+  1. Movie Metadata:
+  2. Character Metadata:
+
 ## Timeline ⌛️
 ![Shine Bright Like Adamon](img/timeline.png)
 
