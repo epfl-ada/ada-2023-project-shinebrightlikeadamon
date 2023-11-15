@@ -8,10 +8,11 @@ The narrative also explores the influence of actors' previous awards on a film's
 Finally, our guide probes the balance between a cast's star power and the narrative depth of the film. It challenges directors to consider how well-known actors contribute to both the artistic depth and commercial viability of their projects, aiming for a harmonious blend that captivates both critics and audiences.
 
 ## Research Questions 🔎
-In our project, we define the success of a movie in terms of IMDB ratings. To provide the perfect cast, we will analyse:
-1. What impact do the `gender` and `ethnicity` of an actor have on the ratings of a movie?
-2. What is the ideal `age` for a specific character type?
-3. How does an actor's previous nomination or `award` affect the movie's ratings? 
+In our project, we define the success of a movie in terms of IMDB ratings. To provide the perfect cast, we will answer the following five questions:
+
+1. How does an actor's `gender` and `ethnicity` influence the ratings of a film?
+2. What is the optimal `age` for portraying specific character types?
+3. How does a previous nomination or `award` received by an actor impact the ratings of a movie?
 4. How do `connections between actors` influence each other's contribution to movie ratings?
 5. Is popularity everything? Do high ratings correspond to high `box-office revenue`?
 
@@ -24,9 +25,29 @@ In our project, we define the success of a movie in terms of IMDB ratings. To pr
 
 ## Methods 📊
 
+### Regression Analysis:
+Use linear or logistic regression to determine if there's a correlation between the gender and ethnicity of an actor and movie ratings. Can also be used to create models to predict box-office revenue based on movie ratings and other factors.
+
+### ANOVA (Analysis of Variance): 
+This can help in comparing the means of movie ratings across different groups of actors based on gender and ethnicity.
+
+### Cluster Analysis: 
+Group movies based on character types and analyze the age distribution of actors in these roles to identify trends.
+
+### Descriptive Statistics: 
+Calculate mean, median, and mode for ages of actors in different character types to determine the 'ideal' age.
+
+### Time Series Analysis: 
+Analyze how an actor's win or nomination in awards influences the ratings of their subsequent movies.
+
+### Correlation Analysis: 
+To find out if there's a statistical relationship between actors' connections and the ratings of movies they're in and to determine if high ratings are associated with high box-office revenue.
+
 ### General Pre-Processing
   1. Movie Metadata:
+    - 
   2. Character Metadata:
+    -
 
 ## Timeline ⌛️
 ![Shine Bright Like Adamon](img/timeline.png)
