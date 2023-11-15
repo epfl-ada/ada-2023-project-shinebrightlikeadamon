@@ -41,7 +41,7 @@ Analyze how an actor's win or nomination in awards influences the ratings of the
 By mapping out the connections between co-starring actors, we can analyze if and how these networks correlate with movie ratings. This analysis can reveal influential actors whose connections might positively or negatively impact the ratings.
 
 ### Correlation Analysis: 
-WE would use this method to find out if there's a statistical relationship between actors' connections and the ratings of movies they're in and to determine if high ratings are associated with high box-office revenue.
+We would use this method to find out if there's a statistical relationship between actors' connections and the ratings of movies they're in and to determine if high ratings are associated with high box-office revenue.
 
 ### General Pre-Processing
   1. Movie Metadata:
