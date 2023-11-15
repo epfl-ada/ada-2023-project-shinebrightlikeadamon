@@ -1,13 +1,11 @@
 # A Star Cast is Born: Striking Gold with the Perfect Lineup
 
 ## Abstract
-Striving for Hollywood fame requires a meticulous strategy. To navigate the challenging waters of an acting career, one must consider where to begin. 
-Aspiring actors must weigh the decision to start on standalone films versus major franchises, or drama against comedy, considering the genre that could launch their careers. 
-A well-devised strategy is essential for actors aspiring to secure steady roles in successful films, given the competitive nature of the industry where many try but very few prevail.
+In the art of filmmaking, a director's journey begins with casting, a critical choice that shapes a movie's soul and its path to success. Our study offers a beacon to directors, illuminating key aspects they should consider in their cast. Central to this quest is understanding the impact of gender and ethnicity diversity on audience and critical reception. Equally vital is discerning the ideal age for characters, ensuring authenticity and connection with viewers.
 
-Creating this structured success plan involves examining successful actors to identify common patterns in their careers, like genre choices and the diversity of their roles. 
-This plan should clarify what to concentrate on and when, such as the ideal genre at the beginning of one's career or the diversification of roles for long-term success.
-Understanding these dynamics can offer concrete actionable steps to actors, advising them on their next move to maximize their success potential.
+The narrative also explores the influence of actors' previous awards on a film's ratings. Can an accolade-laden cast elevate a movie's stature? Moreover, the interplay of relationships among actors is scrutinized, revealing how these dynamics can enhance or detract from a film's appeal.
+
+Finally, our guide probes the balance between a cast's star power and the narrative depth of the film. It challenges directors to consider how well-known actors contribute to both the artistic depth and commercial viability of their projects, aiming for a harmonious blend that captivates both critics and audiences.
 
 ## Research Questions 🔎
 1. What impact do the `gender` and `ethnicity` of an actor have on the ratings of a movie?
