@@ -1,7 +1,5 @@
 # A Star Cast is Born: Striking Gold with the Perfect Lineup
 
-coucou
-
 ## Abstract
 In the art of filmmaking, a director’s work begins with the cast, a critical choice that shapes the future success of the movie. Our project offers a recommendation to directors, illuminating key aspects they should consider in their cast. Central to this research is understanding the impact of gender and diversity ratio on audience and critical reception. Another important aspect is the ideal age for characters, which ensures authenticity and believability to viewers. 
 
