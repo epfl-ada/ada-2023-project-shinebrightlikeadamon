@@ -17,6 +17,12 @@ Understanding these dynamics can offer concrete actionable steps to actors, advi
 5. Is popularity everything? Do high ratings correspond to high `box-office revenue`?
 
 ## Additional Datasets 📈
+1. Inflation [dataset](https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?end=2022&start=1960&view=chart): Consumer prices increase since 1960.
+2. The Movies [dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset?resource=download&select=movies_metadata.csv) for budgets.
+3. Awards [dataset](https://datahub.io/rufuspollock/oscars-nominees-and-winners#resource-oscars-nominees-and-winners_zip): Which awards did actors win.
+4. Actor popularity [dataset](https://github.com/): To be added by Felix
+
+Inflation Data
 
 ## Methods 📊
 
