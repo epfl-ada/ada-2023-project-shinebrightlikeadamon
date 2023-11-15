@@ -10,11 +10,12 @@ Finally, our guide brings everything together for directors seeking to craft the
 ## Research Questions 🤨
 In our project, we define the success of a movie in terms of IMDB ratings. To provide the perfect cast, we will answer the following five questions:
 
-1. How does an actor's `gender` and `ethnicity` influence the ratings of a film?
-2. What is the optimal `age` for portraying specific character types?
-3. How does a previous nomination or `award` received by an actor as well as their `popularity` impact the ratings of a movie?
-4. How do `connections between actors` influence each other's contribution to movie ratings?
-5. Is popularity everything? Do high ratings correspond to high `box-office revenue`?
+1. Is popularity everything? Do high ratings correspond to high `box-office revenue`?
+2. How does an actor's `gender` and `ethnicity` influence the ratings of a film?
+3. Ageing to Perfection: What is the optimal `age` for portraying specific character type?
+4. Do stars make movies shine brighter? How does popularity, a previous nomination or `award` received by an actor impact the ratings of a movie?
+5. How do `connections between actors` influence each other's contribution to movie ratings?
+
 
 ## Additional Datasets 💽
 1. IMDB [dataset](https://developer.imdb.com/non-commercial-datasets/): Ratings from IMDB. We are going to use the ratings as the dependent variable for our analysis. We merge it with each movie in the 'movie.metadata.csv' by combining by 'name' as unique key. As each movie appears multiple times we did a weighted average with the numbers of votes to have a general rating.
@@ -26,7 +27,7 @@ In our project, we define the success of a movie in terms of IMDB ratings. To pr
 ## Methods 📊
 
 ### Regression Analysis:
-Use linear or logistic regression to determine if there's a correlation between the gender and ethnicity of an actor and movie ratings. Can also be used to create models to predict box-office revenue based on movie ratings and other factors.
+We would use regression analysis to model the relationship between actor’s gender and ethnicity and movie ratings. We would then be able to quantify the extent to which gender and ethnicity are associated with changes in movie ratings. We could also use it to create models to predict box-office revenue based on movie ratings and other factors.
 
 ### ANOVA (Analysis of Variance): 
 This can help in comparing the means of movie ratings across different groups of actors based on gender and ethnicity.
@@ -34,20 +35,26 @@ This can help in comparing the means of movie ratings across different groups of
 ### Cluster Analysis: 
 Group movies based on character types and analyze the age distribution of actors in these roles to identify trends.
 
-### Descriptive Statistics: 
-Calculate mean, median, and mode for ages of actors in different character types to determine the 'ideal' age.
-
 ### Time Series Analysis: 
 Analyze how an actor's win or nomination in awards influences the ratings of their subsequent movies.
 
+### Network Analysis: 
+By mapping out the connections between co-starring actors, we can analyze if and how these networks correlate with movie ratings. This analysis can reveal influential actors whose connections might positively or negatively impact the ratings.
+
 ### Correlation Analysis: 
-To find out if there's a statistical relationship between actors' connections and the ratings of movies they're in and to determine if high ratings are associated with high box-office revenue.
+WE would use this method to find out if there's a statistical relationship between actors' connections and the ratings of movies they're in and to determine if high ratings are associated with high box-office revenue.
 
 ### General Pre-Processing
   1. Movie Metadata:
-    - 
+    - Added average rating from the IMBD dataset, adjust box office revenue with inflation in the US from the additional dataset to be able to compare them, implemented budget values and adjust them like box office. We also added the size of the cast, the number of awards/nominations of the cast and its average popularity and experience.
   2. Character Metadata:
-    -
+    - Includes all actor data adjusted to the release date: age, awards, experience.
+  3. Actor Data:
+    - Collected all the following data per actor:
+      - Popularity, %liked, %disliked, %neutral in the US population.
+      - Total number of movies made
+      - Number of awards/nominations
+      - General data as birth, gender, height and etnicity.	
 
 ## Timeline ⏱️
 ![Shine Bright Like Adamon](img/timeline.png)
