@@ -8,6 +8,7 @@ The narrative also explores the influence of actors' previous awards on a film's
 Finally, our guide probes the balance between a cast's star power and the narrative depth of the film. It challenges directors to consider how well-known actors contribute to both the artistic depth and commercial viability of their projects, aiming for a harmonious blend that captivates both critics and audiences.
 
 ## Research Questions 🔎
+In our project, we define the success of a movie in terms of IMDB ratings. To provide the perfect cast, we wi
 1. What impact do the `gender` and `ethnicity` of an actor have on the ratings of a movie?
 2. What is the ideal `age` for a specific character type?
 3. How does an actor's previous nomination or `award` affect the movie's ratings? 
@@ -19,7 +20,7 @@ Finally, our guide probes the balance between a cast's star power and the narrat
 2. The Movies [dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset?resource=download&select=movies_metadata.csv) for budgets.
 3. Awards [dataset](https://datahub.io/rufuspollock/oscars-nominees-and-winners#resource-oscars-nominees-and-winners_zip): Which awards did actors win.
 4. Actor popularity [dataset](https://github.com/): To be added by Felix
-5. Inflation [dataset](https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?end=2022&start=1960&view=chart): Consumer prices increase since 1960.
+5. Inflation [dataset](https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?end=2022&start=1960&view=chart): Consumer prices increase since 1960. This dataset will be used to adjust (budget and) box office revenue of the movies.
 
 ## Methods 📊
 
