@@ -1,11 +1,11 @@
 # A Star Cast is Born: Striking Gold with the Perfect Lineup
 
 ## Abstract
-In the art of filmmaking, a director's journey begins with casting, a critical choice that shapes a movie's soul and its path to success. Our study offers a beacon to directors, illuminating key aspects they should consider in their cast. Central to this quest is understanding the impact of gender and ethnicity diversity on audience and critical reception. Equally vital is discerning the ideal age for characters, ensuring authenticity and connection with viewers.
+In the art of filmmaking, a director’s work begins with the cast, a critical choice that shapes the future success of the movie. Our project offers a recommendation to directors, illuminating key aspects they should consider in their cast. Central to this research is understanding the impact of gender and diversity ratio on audience and critical reception. Another important aspect is the ideal age for characters, which ensures authenticity and believability to viewers. 
 
-The narrative also explores the influence of actors' previous awards on a film's ratings. Can an accolade-laden cast elevate a movie's stature? Moreover, the interplay of relationships among actors is scrutinized, revealing how these dynamics can enhance or detract from a film's appeal.
+The narrative also explores the influence of actors' previous awards on a film's ratings. Can an award-winning cast elevate a movie’s rating? Furthermore, we will explore how the relationships between actors can enhance or detract from a film’s appeal.
 
-Finally, our guide probes the balance between a cast's star power and the narrative depth of the film. It challenges directors to consider how well-known actors contribute to both the artistic depth and commercial viability of their projects, aiming for a harmonious blend that captivates both critics and audiences.
+Finally, our guide brings everything together for directors seeking to craft the ultimate cast to create a movie that's not just good, but one that tops the rating charts.
 
 ## Research Questions 🔎
 In our project, we define the success of a movie in terms of IMDB ratings. To provide the perfect cast, we will answer the following five questions:
