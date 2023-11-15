@@ -26,7 +26,7 @@ In our project, we define the success of a movie in terms of IMDB ratings. To pr
 ## Methods 📊
 
 ### Regression Analysis:
-Use linear or logistic regression to determine if there's a correlation between the gender and ethnicity of an actor and movie ratings.
+Use linear or logistic regression to determine if there's a correlation between the gender and ethnicity of an actor and movie ratings. Can also be used to create models to predict box-office revenue based on movie ratings and other factors.
 
 ### ANOVA (Analysis of Variance): 
 This can help in comparing the means of movie ratings across different groups of actors based on gender and ethnicity.
@@ -36,6 +36,12 @@ Group movies based on character types and analyze the age distribution of actors
 
 ### Descriptive Statistics: 
 Calculate mean, median, and mode for ages of actors in different character types to determine the 'ideal' age.
+
+### Time Series Analysis: 
+Analyze how an actor's win or nomination in awards influences the ratings of their subsequent movies.
+
+### Correlation Analysis: 
+To find out if there's a statistical relationship between actors' connections and the ratings of movies they're in and to determine if high ratings are associated with high box-office revenue.
 
 ### General Pre-Processing
   1. Movie Metadata:
@@ -81,13 +87,6 @@ Calculate mean, median, and mode for ages of actors in different character types
       <td>collection of datasets</td>
     </tr>
   </table>
-
-</body>
-</html>
-
-
-## Questions for TA ❔
-
 
 </body>
 </html>
