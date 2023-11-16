@@ -12,16 +12,16 @@ In our project, we define the success of a movie in terms of IMDB ratings. To pr
 
 1. How does an actor's `gender` and `ethnicity` influence the ratings of a film?
 2. Ageing to Perfection: What is the optimal `age` for portraying specific character type?
-3. Do stars make movies shine brighter? How does popularity, a previous nomination or `award` received by an actor impact the ratings of a movie?
+3. Do stars make movies shine brighter? How does `popularity`, a previous nomination or `award` received by an actor impact the ratings of a movie?
 4. How do `connections between actors` influence each other's contribution to movie ratings?
 5. Is popularity everything? Do high ratings correspond to high `box-office revenue`?
 
 ## Additional Datasets 💽
-1. IMDB [dataset](https://developer.imdb.com/non-commercial-datasets/): Ratings from IMDB. We are going to use the ratings as the dependent variable for our analysis. We merge it with each movie in the 'movie.metadata.csv' by combining by 'name' as unique key. As each movie appears multiple times we did a weighted average with the numbers of votes to have a general rating.
-2. The Movies [dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset?resource=download&select=movies_metadata.csv) for budgets, to isolate the influence of high rating in the 'box office revenue'.
-3. Awards [dataset](https://datahub.io/rufuspollock/oscars-nominees-and-winners#resource-oscars-nominees-and-winners_zip): This dataset contains all the winners and the nominees of the Oscars since 1927. It will be used to gauge the actors academically so we merged it with the 'character.metadata.tsv' dataframe.
-4. Actor popularity [dataset](https://today.yougov.com/ratings/entertainment/fame/all-time-actors-actresses/all): Fame, popularity, liked, disliked and neutral ratios among US population. (scrapped data)
-5. Inflation [dataset](https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?end=2022&start=1960&view=chart): Consumer prices increase since 1960. This dataset will be used to adjust (budget and) box office revenue of the movies, mostly for our last question.
+1. IMDB [dataset](https://developer.imdb.com/non-commercial-datasets/): Ratings from IMDB. We are going to use the ratings as the dependent variable for our analysis. We merge it with each movie in the `movie.metadata.csv` by combining by `name` as unique key. As each movie appears multiple times we did a weighted average with the numbers of votes to have a general rating.
+2. The Movies [dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset?resource=download&select=movies_metadata.csv) for budgets, to isolate the influence of high rating in the `box office revenue`.
+3. Awards [dataset](https://datahub.io/rufuspollock/oscars-nominees-and-winners#resource-oscars-nominees-and-winners_zip): This dataset contains all the winners and the nominees of the Oscars since 1927. It will be used to gauge the actors academically so we merged it with the `character.metadata.tsv` dataframe.
+4. Actor popularity [dataset](https://today.yougov.com/ratings/entertainment/fame/all-time-actors-actresses/all): `Fame`, `popularity`, `liked`, `disliked` and `neutral` ratios among US population(scrapped data).
+5. Inflation [dataset](https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?end=2022&start=1960&view=chart): Consumer prices increase since 1960. This dataset will be used to adjust (`budget` and) `box office revenue` of the movies, mostly for our last question.
 
 ## Methods 📊
 
