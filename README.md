@@ -151,3 +151,6 @@ We would use this method to find out if there's a statistical relationship betwe
 
 
 ## Questions for TA ❔
+
+  - Could we drop all movies with no revenues (only 10% has), so we have a consistent dataset for all questions? Or should we use different datatset for each question?
+  - Should we implement the same threshold for all question for charcaters, in other words, should we make a single dataset that fits every question? Or can we filter out per question, as an exemple, we remove character with no etnicity for the 1st questions but we keep them for the age question. 
