@@ -12,7 +12,7 @@ In our project, we define the success of a movie in terms of IMDB ratings. To pr
 
 1. How does an actor's `gender` and `ethnicity` influence the ratings of a film?
 2. Ageing to Perfection: What is the optimal `age` for portraying specific character type?
-3. Do stars make movies shine brighter? How does popularity, a previous nomination or `award` received by an actor impact the ratings of a movie?
+3. Do stars make movies shine brighter? How does `popularity`, a previous nomination or `award` received by an actor impact the ratings of a movie?
 4. How do `connections between actors` influence each other's contribution to movie ratings?
 5. Is popularity everything? Do high ratings correspond to high `box-office revenue`?
 
