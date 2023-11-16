@@ -35,13 +35,17 @@ We perform Analysis of Variance (an extension of the t-test used to comapre the 
 
 ### Cluster Analysis: 
 We group movies based on character types and analyze the age distribution of actors in these roles to identify trends.
+
 Using the character type categorization provided with the data set (#TODO as an output of the NLP applied to the movie data set), we select character types present in each movie and the ages of the actors playing those roles as features, and apply K-means to identify clusters or groups of movies that share similar patterns regarding these features. We then analyze the relationship between these clusters and movie ratings through _____ and Regression Analysis (using the clusters as the independent categorical variable). 
+
 #TODO
 ANOVA (Analysis of Variance): If the clusters are categorical (representing different types of character roles, for instance), and movie ratings are numerical, you could use ANOVA to test for significant differences in ratings between different clusters. ANOVA determines if the means of ratings across multiple clusters are significantly different.
+
 Kruskal-Wallis Test: Similar to ANOVA but used for non-parametric data. If your movie ratings are ordinal or not normally distributed and your clusters are categorical, you might consider the Kruskal-Wallis test to compare median ratings across clusters.
 
 ### Time Series Analysis: 
 We use Time Series Analysis to examine how an actor's win or nomination for an award influences the ratings of their subsequent movies. 
+
 We collect time-stamped data on the actor's award nominations/wins and the ratings of their movies (time-stamped with their release date) over time, resulting in one time series for the actor's awards and another for movie ratings. We then perform Regression Analysis to assess the relationship between the timings of awards and subsequent movie ratings.     #TODO are we doing forecasting and prediction ??? 
 
 ### Network Analysis: 
