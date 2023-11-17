@@ -40,6 +40,9 @@ We use Time Series Analysis to examine how an actor's win or nomination for an a
 
 We collect time-stamped data on the actor's award nominations/wins and the ratings of their movies (time-stamped with their release date) over time, resulting in one time series for the actor's awards and another for movie ratings, which we then perform Regression Analysis on.
 
+### Paired Matching
+We employed paired matching to examine potential causal relationships within observed correlations between time-stamped award nominations/wins and movie ratings. We standardized the continuous variables, calculated propensity scores and performed the matching. 
+
 ### Regression Analysis:
 We apply Regression Analysis on the Time Series Analysis to determine how an actor's award win or nomination influences the ratings of their subsequent movies. 
 
