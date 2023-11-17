@@ -25,11 +25,6 @@ In our project, we define the success of a movie in terms of IMDB ratings. To pr
 
 ## Methods 📊
 
-### Regression Analysis:
-We use Regression Analysis to model the relationship between actors' gender and ethnicity and movie ratings. We are able to quantify the extent to which gender and ethnicity are associated with changes in movie ratings. 
-We can also use Regression Analysis to create models to predict box-office revenue based on movie ratings, this would then give us insight on the correlation between movie ratings and the box-office.
-Lastly, we apply Regression Analysis as the final step in the Time Series Analysis of how an actor's award win or nomination influences the ratings of their subsequent movies. 
-
 ### ANOVA (Analysis of Variance): 
 We perform Analysis of Variance (an extension of the t-test used to compare the means of three or more groups), specifically Two-Way ANOVA, to compare the means of movie ratings (a single continuous dependent variable) across different groups of actors based on gender and ethnicity (two categorical independent variables). 
 
@@ -38,22 +33,21 @@ Additionally, we use ANOVA to determines if the means of ratings across multiple
 ### Cluster Analysis: 
 We group movies based on character types and analyze the age distribution of actors in these roles to identify trends.
 
-Using the character type categorization provided with the data set, we select character types present in each movie and the ages of the actors playing those roles as features, and apply K-means to identify clusters or groups of movies that share similar patterns regarding these features. We then analyze the relationship between these clusters and movie ratings through ANOVA and Regression Analysis (using the clusters as the independent categorical variable). 
+Using the character type categorization provided with the data set, we select character types present in each movie and the ages of the actors playing those roles as features, and apply K-means to identify clusters or groups of movies that share similar patterns regarding these features. We then analyze the relationship between these clusters and movie ratings through ANOVA (using character types and ages as independent categorical variables). 
 
 ### Time Series Analysis: 
 We use Time Series Analysis to examine how an actor's win or nomination for an award influences the ratings of their subsequent movies. 
 
 We collect time-stamped data on the actor's award nominations/wins and the ratings of their movies (time-stamped with their release date) over time, resulting in one time series for the actor's awards and another for movie ratings. We then perform Regression Analysis to assess the relationship between the timings of awards and subsequent movie ratings.    
 
+### Regression Analysis:
+We apply Regression Analysis as the final step in the Time Series Analysis to determine how an actor's award win or nomination influences the ratings of their subsequent movies. 
+
 ### Network Analysis: 
-By mapping out the connections between co-starring actors, we analyze if and how these networks correlate with movie ratings. This analysis can reveal influential actors whose connections might positively or negatively impact a movie's ratings. Representing the actors as nodes and their connections as edges, we use degree centrality to measures the number of connections or relationships an actor has within a network to understand the actor's prominence or influence in the movie industry.    
-
-After mapping out the connections between actors, we could use the Louvain method to detect communities within the network, in order to examine the communities identified by the Louvain method and look for patterns: do movies featuring actors from the same community tend to have higher or lower ratings? Are there particular communities associated with highly-rated movies? 
-
-Furthermore, the combination of the degree centrality analysis with our community data would help us determine if actors with high degree centrality are distributed across different communities or concentrated in specific ones. This could reveal if influential actors (high degree centrality) are also central in forming or bridging communities.
+By mapping out the connections between co-starring actors, we analyze if and how these networks correlate with movie ratings. This analysis can reveal influential actors whose connections might positively or negatively impact a movie's ratings. Representing the actors as nodes and their connections as edges, we use degree centrality to measure the number of connections or relationships an actor has within a network to understand the actor's prominence or influence in the movie industry.    
 
 ### Correlation Analysis: 
-We perform Correlation Analysis to find out if there's a statistical relationship between actors' connections and the ratings of movies they're cast in (#TODO not suggested) and to determine if high ratings are associated with high box-office revenue. For the latter, we chose Pearson's Correlation Coefficient as it assesses the linear relationship between two continuous variables. 
+We perform Correlation Analysis to find out if there's a statistical relationship ratings are box-office revenue. We chose Pearson's Correlation Coefficient as it assesses the linear relationship between two continuous variables. 
 
 ### General Pre-Processing
   1. Movie Metadata:
