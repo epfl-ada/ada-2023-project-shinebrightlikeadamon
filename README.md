@@ -115,15 +115,15 @@ We perform Correlation Analysis, with Pearson's Correlation Coefficient, to find
     </tr>
     <tr>
       <td>Emma</td>
-      <td>README.md: Questions, Timeline, Team Organization</td>
+      <td>README.md: Questions, Methods, Timeline, Team Organization</td>
     </tr>
     <tr>
       <td>Félix</td>
-      <td>scraping of actors popularity dataset, methods and initial data merging</td>
+      <td>Scraping of actors popularity dataset, methods and initial data merging</td>
     </tr>
     <tr>
       <td>Marine</td>
-      <td>README.md: Abstract, Questions, Methods</td>
+      <td>README.md: Abstract, Questions, Methods, Milestones</td>
     </tr>
     <tr>
       <td>Tim B.</td>
