@@ -31,25 +31,22 @@ We can also use Regression Analysis to create models to predict box-office reven
 Lastly, we apply Regression Analysis as the final step in the Time Series Analysis of how an actor's award win or nomination influences the ratings of their subsequent movies. 
 
 ### ANOVA (Analysis of Variance): 
-We perform Analysis of Variance (an extension of the t-test used to compare the means of three or more groups) to compare the means of movie ratings across different groups of actors based on gender and ethnicity. In particular, we perform Two-Way ANOVA to analyze the influence of the two categorical independent variables (gender and ethnicity) on a single continuous dependent variable (movie ratings).   #TODO continuous ???
+We perform Analysis of Variance (an extension of the t-test used to compare the means of three or more groups), specifically Two-Way ANOVA, to compare the means of movie ratings (a single continuous dependent variable) across different groups of actors based on gender and ethnicity (two categorical independent variables). 
+
+Additionally, we use ANOVA to determines if the means of ratings across multiple character type and actor age clusters are significantly different.
 
 ### Cluster Analysis: 
 We group movies based on character types and analyze the age distribution of actors in these roles to identify trends.
 
-Using the character type categorization provided with the data set (#TODO as an output of the NLP applied to the movie data set), we select character types present in each movie and the ages of the actors playing those roles as features, and apply K-means to identify clusters or groups of movies that share similar patterns regarding these features. We then analyze the relationship between these clusters and movie ratings through Correlation and Regression Analysis (using the clusters as the independent categorical variable). 
-
-#TODO
-ANOVA (Analysis of Variance): If the clusters are categorical (representing different types of character roles, for instance), and movie ratings are numerical, you could use ANOVA to test for significant differences in ratings between different clusters. ANOVA determines if the means of ratings across multiple clusters are significantly different.
-
-Kruskal-Wallis Test: Similar to ANOVA but used for non-parametric data. If your movie ratings are ordinal or not normally distributed and your clusters are categorical, you might consider the Kruskal-Wallis test to compare median ratings across clusters.
+Using the character type categorization provided with the data set, we select character types present in each movie and the ages of the actors playing those roles as features, and apply K-means to identify clusters or groups of movies that share similar patterns regarding these features. We then analyze the relationship between these clusters and movie ratings through ANOVA and Regression Analysis (using the clusters as the independent categorical variable). 
 
 ### Time Series Analysis: 
 We use Time Series Analysis to examine how an actor's win or nomination for an award influences the ratings of their subsequent movies. 
 
-We collect time-stamped data on the actor's award nominations/wins and the ratings of their movies (time-stamped with their release date) over time, resulting in one time series for the actor's awards and another for movie ratings. We then perform Regression Analysis to assess the relationship between the timings of awards and subsequent movie ratings.     #TODO are we doing forecasting and prediction ??? 
+We collect time-stamped data on the actor's award nominations/wins and the ratings of their movies (time-stamped with their release date) over time, resulting in one time series for the actor's awards and another for movie ratings. We then perform Regression Analysis to assess the relationship between the timings of awards and subsequent movie ratings.    
 
 ### Network Analysis: 
-By mapping out the connections between co-starring actors, we analyze if and how these networks correlate with movie ratings. This analysis can reveal influential actors whose connections might positively or negatively impact a movie's ratings. Representing the actors as nodes and their connections as edges, we use degree centrality to measures the number of connections or relationships an actor has within a network to understand the actor's prominence or influence in the movie industry.   #TODO Louvian method x communities 
+By mapping out the connections between co-starring actors, we analyze if and how these networks correlate with movie ratings. This analysis can reveal influential actors whose connections might positively or negatively impact a movie's ratings. Representing the actors as nodes and their connections as edges, we use degree centrality to measures the number of connections or relationships an actor has within a network to understand the actor's prominence or influence in the movie industry.    
 
 After mapping out the connections between actors, we could use the Louvain method to detect communities within the network, in order to examine the communities identified by the Louvain method and look for patterns: do movies featuring actors from the same community tend to have higher or lower ratings? Are there particular communities associated with highly-rated movies? 
 
