@@ -7,6 +7,15 @@ We go beyond mere talent, examining if an actor's fame and past awards can lift 
 
 Our analysis doesn't stop there. We also delve into the financial aspect, scrutinizing how these factors translate into box office revenues. This guide aims to equip directors with insights for assembling a cast that excels both in capturing hearts and at the box office, propelling a film to the peak of ratings. We will analyze the 25'515 movies that have been rated by IMDB users to create a recipe for a successful cast.
 
+--- New Version --- 
+
+How does actor fame influence movie rating?
+- fame in terms of awards, online popularity and connections between actors
+
+Talked about rating the whole time, but what about money? Is there any link between movie ratings and it's financial success? Let's quickly have a look.
+
+Causation: Pair matching/propensity & sensitifity analysis
+
 ## Research Questions 🤨
 In our project, we define the success of a movie in terms of IMDB ratings. To provide the perfect cast, we will answer the following questions:
 
