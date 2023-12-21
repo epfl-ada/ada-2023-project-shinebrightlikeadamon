@@ -102,23 +102,23 @@ We perform Correlation Analysis, with Pearson's Correlation Coefficient, to find
     </tr>
     <tr>
       <td>Emma</td>
-      <td>README.md: Questions, Methods, Timeline, Team Organization</td>
+      <td>README, Network Analysis, Front-end</td>
     </tr>
     <tr>
       <td>Félix</td>
-      <td>Scraping of actors popularity dataset, methods and initial data merging</td>
+      <td>Data pre-processing, Popularity Analysis, Front-end</td>
     </tr>
     <tr>
       <td>Marine</td>
-      <td>README.md: Abstract, Questions, Methods, Milestones</td>
+      <td>README, Award Analysis, Front-end</td>
     </tr>
     <tr>
       <td>Tim B.</td>
-      <td>Data pre-processing</td>
+      <td>Data pre-processing, Propensity Score for Communities, Front-end</td>
     </tr>
     <tr>
       <td>Tim W.</td>
-      <td>Collection of datasets, Milestones, Front-End setup</td>
+      <td>Collection of datasets, Financial Analysis, Front-end</td>
     </tr>
   </table>
 
