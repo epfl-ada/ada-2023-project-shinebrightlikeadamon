@@ -12,9 +12,10 @@ From fame to fortune, we're about to unravel the thrilling mysteries that make t
 ## Research Questions 🤨
 In our project, we define the success of a movie in terms of IMDB ratings. To provide the perfect cast, we will answer the following questions:
 
-1. Do stars make movies shine brighter? How does `popularity`, a previous nomination or `award` received by an actor impact the ratings of a movie?
-2. How do `connections between actors` influence each other's contribution to movie ratings?
-3. Is popularity everything? Do high ratings correspond to high `box-office revenue`?
+1. Do stars make movies shine brighter? Does a previous nomination or `award` received by an actor impact the ratings of a movie?
+2. Rating the icons: Are the big names worth the hype? Does online `fame` influence ratings? All kinds of `fama`?
+3. How do `connections between actors` influence each other's contribution to movie ratings?
+4. Is popularity everything? Do high ratings correspond to high `box-office revenue`?
 
 ## Additional Datasets 💽
 1. IMDB [dataset](https://developer.imdb.com/non-commercial-datasets/): Ratings from IMDB. We are going to use the ratings as the dependent variable for our analysis. We merge it with each movie in the `movie.metadata.csv` by `(name,release_year,runtime)` as unique key.
@@ -31,7 +32,7 @@ We use Time Series Analysis to examine how an actor's win or nomination for an a
 We collect time-stamped data on the actor's award nominations/wins and the ratings of their movies (time-stamped with their release date) over time, resulting in one time series for the actor's awards and another for movie ratings, which we then perform Regression Analysis on.
 
 ### Paired Matching
-We employed paired matching to examine potential causal relationships within observed correlations between time-stamped award nominations/wins and movie ratings. We standardized the continuous variables, calculated propensity scores and performed the matching. 
+We start by regressing our features to determe the likelihood of treatment per sample. Once we have this, we create paired matchs to examine potential causal relationships within observed correlations between time-stamped award/popularity and movie ratings. Once we have our pairs we conclude over the influence of the variable without the influence of any cofounder.
 
 ### Regression Analysis:
 We apply Regression Analysis on the Time Series Analysis to determine how an actor's award win or nomination influences the ratings of their subsequent movies. 
@@ -41,9 +42,6 @@ By mapping out the connections between co-starring actors, we analyze if and how
 
 ### ANOVA (Analysis of Variance): 
 We perform Analysis of Variance (an extension of the t-test used to compare the means of three or more groups) to compare the means of movie ratings from different communities of actors, after having conducted network analysis.
-
-### Propensity Score 
-@TimB
 
 ### Correlation Analysis: 
 We perform Correlation Analysis, with Pearson's Correlation Coefficient, to find out if there's a statistical relationship ratings are box-office revenue. 
