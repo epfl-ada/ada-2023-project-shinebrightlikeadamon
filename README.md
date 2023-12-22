@@ -1,4 +1,4 @@
-# From a Star Cast to a Cast that Brings Stars: What lies in between 
+# From a Star Cast to a Cast that Brings Stars
 
 [Link to datastory](https://thetayne.github.io/)
 
