@@ -46,6 +46,9 @@ We perform Analysis of Variance (an extension of the t-test used to compare the 
 ### Correlation Analysis: 
 We perform Correlation Analysis, with Pearson's Correlation Coefficient, to find out if there's a statistical relationship ratings are box-office revenue. 
 
+### T-Test
+We utilze T-Tests to check different hypotheses, e.g. whether the difference between the results of two groups is statistically significant or not.
+
 ## Timeline ⏱️
 ![Shine Bright Like Adamon](img/timeline.png)
 
