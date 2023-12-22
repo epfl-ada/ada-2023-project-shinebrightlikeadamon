@@ -35,7 +35,7 @@ We collect time-stamped data on the actor's award nominations/wins and the ratin
 We start by regressing our features to determe the likelihood of treatment per sample. Once we have this, we create paired matchs to examine potential causal relationships within observed correlations between time-stamped award/popularity and movie ratings. Once we have our pairs we conclude over the influence of the variable without the influence of any cofounder.
 
 ### Regression Analysis:
-We apply Regression Analysis on the Time Series Analysis to determine how an actor's award win or nomination influences the ratings of their subsequent movies. 
+We apply Regression Analysis on the Time Series Analysis to determine how an actor's award win or nomination influences the ratings of their subsequent movies. We also use for our propensity score for paired matching and to modelize relations in most questions. 
 
 ### Network Analysis: 
 By mapping out the connections between co-starring actors, we analyze if and how these networks correlate with movie ratings. This analysis can reveal influential actors whose connections might positively or negatively impact a movie's ratings. Representing the actors as nodes and their connections as edges, using degree centrality to measure the number of connections an actor has within a network to understand the actor's prominence or influence in the movie industry.    
@@ -44,7 +44,7 @@ By mapping out the connections between co-starring actors, we analyze if and how
 We perform Analysis of Variance (an extension of the t-test used to compare the means of three or more groups) to compare the means of movie ratings from different communities of actors, after having conducted network analysis.
 
 ### Correlation Analysis: 
-We perform Correlation Analysis, with Pearson's Correlation Coefficient, to find out if there's a statistical relationship ratings are box-office revenue. 
+We perform Correlation Analysis, with Pearson's Correlation Coefficient, to find out if there's a statistical relationship for most questions before applying any regression or further analysis. 
 
 ### T-Test
 We utilze T-Tests to check different hypotheses, e.g. whether the difference between the results of two groups is statistically significant or not.
