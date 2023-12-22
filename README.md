@@ -115,7 +115,7 @@ We utilze T-Tests to check different hypotheses, e.g. whether the difference bet
     </tr>
     <tr>
       <td>Tim B.</td>
-      <td>Data pre-processing, Propensity Score for Communities, Front-end</td>
+      <td>Data pre-processing, Cast Diversity Analysis, Front-end</td>
     </tr>
     <tr>
       <td>Tim W.</td>
