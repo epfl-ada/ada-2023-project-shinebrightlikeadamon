@@ -13,7 +13,7 @@ From fame to fortune, we're about to unravel the thrilling mysteries that make t
 In our project, we define the success of a movie in terms of IMDB ratings. To provide the perfect cast, we will answer the following questions:
 
 1. Do stars make movies shine brighter? Does a previous nomination or `award` received by an actor impact the ratings of a movie?
-2. Rating the icons: Are the big names worth the hype? Does online `fame` influence ratings? All kinds of `fama`?
+2. Rating the icons: Are the big names worth the hype? Does online `fame` influence ratings? All kinds of `fame`?
 3. How do `connections between actors` influence each other's contribution to movie ratings?
 4. Is popularity everything? Do high ratings correspond to high `box-office revenue`?
 
