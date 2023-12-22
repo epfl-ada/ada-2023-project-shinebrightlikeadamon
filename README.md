@@ -27,9 +27,7 @@ In our project, we define the success of a movie in terms of IMDB ratings. To pr
 ## Methods 📊 
 
 ### Time Series Analysis:  
-We use Time Series Analysis to examine how an actor's win or nomination for an award influences the ratings of their subsequent movies. 
-
-We collect time-stamped data on the actor's award nominations/wins and the ratings of their movies (time-stamped with their release date) over time, resulting in one time series for the actor's awards and another for movie ratings.
+We use Time Series Analysis to examine how an actor's win or nomination for an award influences the ratings of their subsequent movies. We collect time-stamped data on the cast's award nominations/wins and the ratings of their movies (time-stamped with their release date) over time, resulting in one time series for the actor's awards and another for movie ratings.
 
 ### Paired Matching
 We start by regressing our features to determe the likelihood of treatment per sample. Once we have this, we create paired matchs to examine potential causal relationships within observed correlations between time-stamped award/popularity and movie ratings. Once we have our pairs we conclude over the influence of the variable without the influence of any cofounder.
