@@ -29,13 +29,13 @@ In our project, we define the success of a movie in terms of IMDB ratings. To pr
 ### Time Series Analysis:  
 We use Time Series Analysis to examine how an actor's win or nomination for an award influences the ratings of their subsequent movies. 
 
-We collect time-stamped data on the actor's award nominations/wins and the ratings of their movies (time-stamped with their release date) over time, resulting in one time series for the actor's awards and another for movie ratings, which we then perform Regression Analysis on.
+We collect time-stamped data on the actor's award nominations/wins and the ratings of their movies (time-stamped with their release date) over time, resulting in one time series for the actor's awards and another for movie ratings.
 
 ### Paired Matching
 We start by regressing our features to determe the likelihood of treatment per sample. Once we have this, we create paired matchs to examine potential causal relationships within observed correlations between time-stamped award/popularity and movie ratings. Once we have our pairs we conclude over the influence of the variable without the influence of any cofounder.
 
 ### Regression Analysis:
-We apply Regression Analysis on the Time Series Analysis to determine how an actor's award win or nomination influences the ratings of their subsequent movies. We also use for our propensity score for paired matching and to modelize relations in most questions. 
+We apply Regression Analysis to shed light on the statistical relationship between the ratings of a movie and the average ratings in a cast and the total number of awards within the cast. We also use for our propensity score for paired matching and to modelize relations in most questions. 
 
 ### Network Analysis: 
 By mapping out the connections between co-starring actors, we analyze if and how these networks correlate with movie ratings. This analysis can reveal influential actors whose connections might positively or negatively impact a movie's ratings. Representing the actors as nodes and their connections as edges, using degree centrality to measure the number of connections an actor has within a network to understand the actor's prominence or influence in the movie industry.    
@@ -71,7 +71,7 @@ We utilze T-Tests to check different hypotheses, e.g. whether the difference bet
 - **Task 2.2:** Visualize key variables (awards, communities, revenue...) to gain initial insights and identify potential patterns or outliers.
 
 ### 3. Impact of Awards and Popularity
-- **Task 3.1:** Use time series analysis to assess actor award history's impact on movie ratings.
+- **Task 3.1:** Use time series analysis to assess the cast award history's impact on movie ratings.
 - **Task 3.2:** Use correlation analysis to explore actor popularity's impact on movie ratings.
 
 ### 4. Network Analysis of Actor Connections
