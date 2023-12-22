@@ -75,7 +75,7 @@ We utilze T-Tests to check different hypotheses, e.g. whether the difference bet
 ### 4. Network Analysis of Actor Connections
 - **Task 4.1:** Create a network graph of actors based on their co-starring roles.
 - **Task 4.2:** Apply correlation analysis to assess how connections between actors affect movie ratings.
-- **Task 4.3:** Compute the propensity score to explore causality between movie genre and movie ratings.     @TimB
+- **Task 4.3:** Use regression analysis with paired and propensity score matching to explore causality between movie cast diversity and movie ratings.
 
 ### 5. Relationship Between Ratings, Revenue, and Budget
 - **Task 5.1:**  Study the relationship between movie ratings and box office revenue while considering budget data for a comprehensive analysis of financial performance.
