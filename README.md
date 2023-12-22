@@ -1,4 +1,4 @@
-# From a Star Cast to a Cast that Brings Stars
+# How Does Actor Fame Influence Movie Ratings ?
 
 [Link to datastory](https://thetayne.github.io/)
 
